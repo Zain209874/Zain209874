@@ -1,0 +1,71 @@
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Updated CSS for the responsive navigation bar with smooth animation */
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100%;
+    background-color: #111;
+    overflow-y: auto;
+    transition: right 0.3s; /* Apply a smooth transition to the right property */
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+#menu-icon {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#close-icon {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Style for the white boxes with rounded corners */
+.about-section {
+    background-color: #fff; /* Background color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    margin: 50px 0; /* Increased spacing between sections to move them down */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Style for the section titles */
+.about-section h2 {
+    font-size: 24px; /* Title font size */
+    color: #333; /* Title color */
+    margin-bottom: 10px; /* Spacing between title and content */
+}
